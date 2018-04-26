@@ -1,0 +1,1 @@
+ffmpeg -framerate 40 -i predicted_img/%d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p predicted_img/output.mp4
